@@ -3,6 +3,8 @@
 
 ### Требуется сверстать сайт neaty
 
+![](https://github.com/n3d27/First_Project/blob/master/neaty/site-images/neaty.png)
+
 Технологии:
 
 - html
