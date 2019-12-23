@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 550px;
+   background-color:rgb(53, 66, 185);
+    padding-bottom: 45%;
+    padding-top: 3px;
+    
+}
+.logo_text{
+    color:white;
+    padding-top: 100px; 
+    font: normal 125% 'century gothic', arial, sans-serif;
+}
+
+.menubar {
+	width: 900px;
+    height: 46px;
+    
+}
+ul.menu {
+    margin: 100px 0 0 25%;
+    
+}
+ul.menu li {
+    display: block;
+    text-decoration-line: none;
+    list-style: none;
+}
+ul.menu li a{
+    color:white;
+}
+ul.menu li.selected a {
+	color: #aeb002;
+}
+ul.menu li a:hover {
+	color: #e4ec04;
+}
