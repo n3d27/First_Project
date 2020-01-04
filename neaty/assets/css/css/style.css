@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
 }
-.header{
+header{
     width: 550px;
     background-color:#23569b;
     padding-bottom: 45%;
     padding-top: 3px;
+    overflow: hidden;
     
 }
 .logo{
@@ -19,7 +20,10 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 125%;
 }
-
+.main, .logo, .menubar, .site_content, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
 .menubar {
 	width: 900px;
     height: 46px;
@@ -46,5 +50,11 @@ ul.menu li.selected a {
 }
 ul.menu li a:hover {
 	color: #e4ec04;
+}
+.content{
+	width: 880px;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	background-color: white;
 }
 
