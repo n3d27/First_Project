@@ -55,6 +55,7 @@ ul.menu li a:hover {
 	width: 880px;
 	overflow: hidden;
 	margin: 20px auto 0 auto;
-	background-color: white;
+    background-color: white;
+    float: right;
 }
 
